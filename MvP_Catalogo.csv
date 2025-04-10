@@ -1,0 +1,82 @@
+CAMPO,DESCRIÇÃO,DOMÍNIO,MIN,MAX,REFERÊNCIA,UNIDADE,FONTE
+CITY chave,Nome da Cidade,Caracter,-,-,,,-
+STATE chave,Nome do Estado,Caracter,-,-,,,-
+CAPITAL,1 se for Capital do Estado,Numérico,0,1,,,-
+IBGE_RES_POP,População Residente,Numérico,805,11.253.503,2010,-,https://sidra.ibge.gov.br/tabela/1497
+IBGE_RES_POP_BRAS,População Residente Brasileira,Numérico,805,11.133.776,2010,-,https://sidra.ibge.gov.br/tabela/1497
+IBGE_RES_POP_ESTR,População Residente Estrangeira,Numérico,0,119.727,2010,-,https://sidra.ibge.gov.br/tabela/1497
+IBGE_DU,Total de Domicílios,Numérico,0,3.576.148,2010,-,https://sidra.ibge.gov.br/tabela/3495
+IBGE_DU_URBAN,Domicílios Urbanos,Numérico,0,3.548.433,2010,-,https://sidra.ibge.gov.br/tabela/3495
+IBGE_DU_RURAL,Domicílios Rurais,Numérico,0,33.809,2010,-,https://sidra.ibge.gov.br/tabela/3495
+IBGE_POP,População Residente com Urbanização Regular,Numérico,174,10.463.636,2010,-,https://sidra.ibge.gov.br/tabela/3365
+IBGE_1,População com Urbanização Regular - até 1 ano,Numérico,0,129.464,2010,-,https://sidra.ibge.gov.br/tabela/3365
+IBGE_1_4,População com Urbanização Regular - de 1 a 4 anos,Numérico,5,514.794,2010,-,https://sidra.ibge.gov.br/tabela/3365
+IBGE_5_9,População com Urbanização Regular - de 4 a 9 anos,Numérico,7,684.443,2010,-,https://sidra.ibge.gov.br/tabela/3365
+IBGE_10_14,População com Urbanização Regular - de 10 a 14 anos,Numérico,12,783.702,2010,-,https://sidra.ibge.gov.br/tabela/3365
+IBGE_15_59,População com Urbanização Regular - de 15 a 59 anos,Numérico,94,7.058.221,2010,-,https://sidra.ibge.gov.br/tabela/3365
+IBGE_60+,População com Urbanização Regular - acima de 60 anos,Numérico,-,-,2010,-,https://sidra.ibge.gov.br/tabela/3365
+IBGE_PLANTED_AREA,Área Plantada (hectares),Numérico,0,1.205.669,2017,"1 hectare (1 hectare = 10,000 square meters)",https://sidra.ibge.gov.br/tabela/5457
+IBGE_CROP_PRODUCTION_$,Produção Agrícola,Numérico,-,-,2017,"$ 1,000 reais",https://sidra.ibge.gov.br/tabela/5457
+IDHM Ranking,Classificação no IDH,Numérico,-,-,2010,-,http://www.br.undp.org/content/brazil/pt/home/idh0.html
+IDHM,Índice de Desenvolvimento Humano (IDH),Numérico,418,862,2010,-,http://www.br.undp.org/content/brazil/pt/home/idh0.html
+IDHM_Renda,Índice de Renda Nacional Bruta (IDH-RNB),Numérico,0.4,891,2010,-,http://www.br.undp.org/content/brazil/pt/home/idh0/rankings/idhm-municipios-2010.html
+IDHM_Longevidade,Índice de Expectativa de Vida (IDH),Numérico,672,894,2010,-,http://www.br.undp.org/content/brazil/pt/home/idh0/rankings/idhm-municipios-2010.html
+IDHM_Educacao,Índice de Educação (IDH),Numérico,207,825,2010,-,http://www.br.undp.org/content/brazil/pt/home/idh0/rankings/idhm-municipios-2010.html
+LONG,Latitude da Cidade,Numérico,-729.165,0,2010,-,ftp://geoftp.ibge.gov.br/organizacao_do_territorio/estrutura_territorial/localidades
+LAT,Longitude da Cidade,Numérico,-336.876,1.444.261,2010,-,ftp://geoftp.ibge.gov.br/organizacao_do_territorio/estrutura_territorial/localidades
+ALT,Altitude da Cidade (metros),Numérico,0,16.391.545,2010,1 meter,ftp://geoftp.ibge.gov.br/organizacao_do_territorio/estrutura_territorial/localidades
+PAY_TV,Usuários de TV por Assinatura,Numérico,1,2.047.668,2019-03,-,https://cloud.anatel.gov.br/index.php/s/TpaFAwSw7RPfBa8?path=%2FTV_por_Assinatura%2FPor_Municipio
+FIXED_PHONES,Usuários de Telefones Fixos (não celulares),Numérico,3,5.543.127,2019-03,-,https://cloud.anatel.gov.br/index.php/s/TpaFAwSw7RPfBa8?path=%2FTelefonia_Fixa%2FPor_Municipio
+AREA,Área da Cidade (km²),Numérico,3.565,159.533.328,2018,"1 squared Kilometer (1 kilometer = 1,000,000 square meters)",https://www.ibge.gov.br/geociencias/organizacao-do-territorio/estrutura-territorial/15761-areas-dos-municipios.html?t=acesso-ao-produto&c=1
+REGIAO_TUR,Região da Categoria Turística,Caracter,-,-,2017,-,http://dados.turismo.gov.br/mapa-do-turismo-brasileiro
+CATEGORIA_TUR,Categoria Turística,Caracter,-,-,2017,-,http://dados.turismo.gov.br/mapa-do-turismo-brasileiro
+ESTIMATED_POP,População Estimada,Numérico,786,12.176.866,2018-07,-,https://www.ibge.gov.br/estatisticas/sociais/populacao/9103-estimativas-de-populacao.html?=&t=o-que-e
+RURAL_URBAN,Tipologia Rural ou Urbana,Caracter,-,-,2016,-,https://www.ibge.gov.br/estatisticas/economicas/contas-nacionais/9088-produto-interno-bruto-dos-municipios.html?t=downloads
+GVA_AGROPEC,Valor Adicionado Bruto - Agropecuária,Numérico,0,1.402.282,2016,"$ 1,000 reais",https://www.ibge.gov.br/estatisticas/economicas/contas-nacionais/9088-produto-interno-bruto-dos-municipios.html?t=downloads
+GVA_INDUSTRY,Valor Adicionado Bruto - Indústria,Numérico,361,63.306.755,2016,"$ 1,000 reais",https://www.ibge.gov.br/estatisticas/economicas/contas-nacionais/9088-produto-interno-bruto-dos-municipios.html?t=downloads
+GVA_SERVICES,Valor Adicionado Bruto - Serviços,Numérico,2.036,464.656.988,2016,"$ 1,000 reais",https://www.ibge.gov.br/estatisticas/economicas/contas-nacionais/9088-produto-interno-bruto-dos-municipios.html?t=downloads
+GVA_PUBLIC,Valor Adicionado Bruto - Serviços Públicos,Numérico,7.258,92.051.448,2016,"$ 1,000 reais",https://www.ibge.gov.br/estatisticas/economicas/contas-nacionais/9088-produto-interno-bruto-dos-municipios.html?t=downloads
+GVA_TOTAL,Valor Adicionado Bruto Total,Numérico,11.335,569.910.503,2016,"$ 1,000 reais",https://www.ibge.gov.br/estatisticas/economicas/contas-nacionais/9088-produto-interno-bruto-dos-municipios.html?t=downloads
+TAXES,Impostos,Numérico,-14.159,117.125.387,2016,"$ 1,000 reais",https://www.ibge.gov.br/estatisticas/economicas/contas-nacionais/9088-produto-interno-bruto-dos-municipios.html?t=downloads
+GDP,Produto Interno Bruto (PIB),Numérico,11.675,687.035.890,2016,"$ 1,000 reais",https://www.ibge.gov.br/estatisticas/economicas/contas-nacionais/9088-produto-interno-bruto-dos-municipios.html?t=downloads
+POP_GDP,População,Numérico,815,12.038.175,2016,-,https://www.ibge.gov.br/estatisticas/economicas/contas-nacionais/9088-produto-interno-bruto-dos-municipios.html?t=downloads
+GDP_CAPITA,PIB per capita,Numérico,3.191,314.638,2016,-,https://www.ibge.gov.br/estatisticas/economicas/contas-nacionais/9088-produto-interno-bruto-dos-municipios.html?t=downloads
+GVA_MAIN,Atividade com Maior Contribuição no VAB,Caracter,-,-,2016,-,https://www.ibge.gov.br/estatisticas/economicas/contas-nacionais/9088-produto-interno-bruto-dos-municipios.html?t=downloads
+MUN_EXPENDIT,Gastos Municipais - em reais,Numérico,0,45.772.497.944,2016,$ 1 real,http://www.tesourotransparente.gov.br/ckan/dataset/dcam
+COMP_TOT,Número Total de Empresas,Numérico,6,530.446,2016,-,https://sidra.ibge.gov.br/tabela/993
+COMP_A,"Empresas: Agricultura, Pecuária, Silvicultura, Pesca e Aquicultura",Numérico,0,1.948,2016,-,https://sidra.ibge.gov.br/tabela/993
+COMP_B,Empresas: Indústrias Extrativas,Numérico,0,274,2016,-,https://sidra.ibge.gov.br/tabela/993
+COMP_C,Empresas: Indústrias de Transformação,Numérico,0,31.566,2016,-,https://sidra.ibge.gov.br/tabela/993
+COMP_D,Empresas: Eletricidade e Gás,Numérico,0,332,2016,-,https://sidra.ibge.gov.br/tabela/993
+COMP_E,"Empresas: Água, Esgoto, Gestão de Resíduos e Descontaminação",Numérico,0,657,2016,-,https://sidra.ibge.gov.br/tabela/993
+COMP_F,Empresas: Construção,Numérico,0,25.222,2016,-,https://sidra.ibge.gov.br/tabela/993
+COMP_G,Empresas: Comércio; Reparação de Veículos Automotores e Motocicletas,Numérico,1,150.633,2016,-,https://sidra.ibge.gov.br/tabela/993
+COMP_H,"Empresas: Transporte, Armazenagem e Correio",Numérico,0,19.515,2016,-,https://sidra.ibge.gov.br/tabela/993
+COMP_I,Empresas: Alojamento e Alimentação,Numérico,0,29.290,2016,-,https://sidra.ibge.gov.br/tabela/993
+COMP_J,Empresas: Informação e Comunicação,Numérico,0,38.720,2016,-,https://sidra.ibge.gov.br/tabela/993
+COMP_K,"Empresas: Atividades Financeiras, Seguros e Serviços Relacionados",Numérico,0,23.738,2016,-,https://sidra.ibge.gov.br/tabela/993
+COMP_L,Empresas: Atividades Imobiliárias,Numérico,0,14.003,2016,-,https://sidra.ibge.gov.br/tabela/993
+COMP_M,"Empresas: Atividades Profissionais, Científicas e Técnicas",Numérico,0,49.181,2016,-,https://sidra.ibge.gov.br/tabela/993
+COMP_N,Empresas: Atividades Administrativas e Serviços Complementares,Numérico,0,76.757,2016,-,https://sidra.ibge.gov.br/tabela/993
+COMP_O,"Empresas: Administração Pública, Defesa e Seguridade Social",Numérico,1,204,2016,-,https://sidra.ibge.gov.br/tabela/993
+COMP_P,Empresas: Educação,Numérico,0,16.030,2016,-,https://sidra.ibge.gov.br/tabela/993
+COMP_Q,Empresas: Saúde Humana e Serviços Sociais,Numérico,0,22.248,2016,-,https://sidra.ibge.gov.br/tabela/993
+COMP_R,"Empresas: Artes, Cultura, Esporte e Recreação",Numérico,0,6.687,2016,-,https://sidra.ibge.gov.br/tabela/993
+COMP_S,Empresas: Outras Atividades de Serviços,Numérico,0,24.832,2016,-,https://sidra.ibge.gov.br/tabela/993
+COMP_T,Empresas: Serviços Domésticos,Numérico,0,0,2016,-,https://sidra.ibge.gov.br/tabela/993
+COMP_U,Empresas: Instituições Internacionais e Outras Instituições Extraterritoriais,Numérico,0,123,2016,-,https://sidra.ibge.gov.br/tabela/993
+HOTELS,Número Total de Hotéis,Numérico,0,97,2019-03,-,http://dados.turismo.gov.br/cadastur
+BEDS,Número Total de Leitos em Hotéis,Numérico,0,13.247,2019-03,-,http://dados.turismo.gov.br/cadastur
+Pr_Agencies,Número Total de Agências de Bancos Privados,Numérico,0,1.693,2019-02,-,https://www.bcb.gov.br/estatisticas/estatisticabancariamunicipios
+Pu_Agencies,Número Total de Agências de Bancos Públicos,Numérico,0,626,2019-02,-,https://www.bcb.gov.br/estatisticas/estatisticabancariamunicipios
+Pr_Bank,Número Total de Bancos Privados,Numérico,0,83,2019-02,-,https://www.bcb.gov.br/estatisticas/estatisticabancariamunicipios
+Pu_Bank,Número Total de Bancos Públicos,Numérico,0,8,2019-02,-,https://www.bcb.gov.br/estatisticas/estatisticabancariamunicipios
+Pr_Assets,Total de Ativos de Bancos Privados,Numérico,0,19.470.765.412.654,2019-02,$ 1 real,https://www.bcb.gov.br/estatisticas/estatisticabancariamunicipios
+Pu_Assets,Total de Ativos de Bancos Públicos,Numérico,0,8.016.164.488.595,2019-02,$ 1 real,https://www.bcb.gov.br/estatisticas/estatisticabancariamunicipios
+Cars,Número Total de Carros,Numérico,0,5.740.995,2019-01,-,https://www.denatran.gov.br/estatistica/639-frota-2019
+Motorcycles,"Número Total de Motos, Motonetas e Ciclomotores",Numérico,0,1.134.570,2019-01,-,https://www.denatran.gov.br/estatistica/639-frota-2019
+Wheeled_tractor,Número Total de Tratores de Rodas,Numérico,0,3.236,2019-01,-,https://www.denatran.gov.br/estatistica/639-frota-2019
+UBER,1 se tiver UBER,Numérico,0,1,2019-05,-,https://www.uber.com/en-BR/cities/
+MAC,Número Total de Lojas do McDonald's,Numérico,0,130,2018-11,-,https://www.mcdonalds.com.br/enderecos
+WALLMART,Número Total de Lojas do Walmart,Numérico,-,-,2018-12,-,https://tabloide.walmartbrasil.com.br/
+POST_OFFICES,Número Total de Agências dos Correios,Numérico,0,225,2019-05,-,http://www2.correios.com.br/sistemas/agencias/
